@@ -10,6 +10,10 @@ public class Day1_217_53 {
         int[] nums = {1,2,3,1};
         boolean contains = containsDuplicate(nums);
         System.out.println(contains);
+
+        int[] array = {-2,1,-3,4,-1,2,1,-5,4};
+        int sum = maxSubArray(array);
+        System.out.println(sum);
     }
 
 /*
@@ -46,7 +50,18 @@ Output: 6
 Explanation: [4,-1,2,1] has the largest sum = 6.
  */
 
-    public int maxSubArray(int[] nums) {
-        return 0;
+    public static int maxSubArray(int[] nums) {
+        int maxEndingIndex = nums[0];
+        int maxSoFar = nums[0];
+
+        for(int i = 1; i < nums.length; i++){
+
+            maxEndingIndex = Math.max(maxEndingIndex + nums[i], nums[i]);
+
+            maxSoFar = Math.max(maxEndingIndex,maxSoFar);
+
+        }
+
+        return maxSoFar;
     }
 }
