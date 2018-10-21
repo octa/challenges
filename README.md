@@ -15,3 +15,7 @@
 |Roman to Integer|https://leetcode.com/problems/roman-to-integer/|
 |Common Longest Prefix|https://leetcode.com/problems/longest-common-prefix/|
 |Valid Parantheses|https://leetcode.com/problems/valid-parentheses/|
+|Count Odd Numbers|https://leetcode.com/problems/count-odd-numbers-in-an-interval-range/|
+|Average|https://leetcode.com/problems/average-salary-excluding-the-minimum-and-maximum-salary/|
+|Contains Duplicate|https://leetcode.com/problems/contains-duplicate/|
+|Maximum Subarray|https://leetcode.com/problems/maximum-subarray/|
