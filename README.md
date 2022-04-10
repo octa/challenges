@@ -14,3 +14,4 @@
 |Palindrome Number|https://leetcode.com/problems/palindrome-number/|
 |Roman to Integer|https://leetcode.com/problems/roman-to-integer/|
 |Common Longest Prefix|https://leetcode.com/problems/longest-common-prefix/|
+|Valid Parantheses|https://leetcode.com/problems/valid-parentheses/|
