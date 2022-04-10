@@ -1,5 +1,8 @@
 [![Build challenges](https://github.com/octa/challenges/actions/workflows/build.yaml/badge.svg)](https://github.com/octa/challenges/actions/workflows/build.yaml)
 
+![GitHub Actions](images/githubactions.svg)
+
+
 ## Coding challenges written in Java and other languages.
 
 **Completed:**
