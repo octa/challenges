@@ -21,7 +21,7 @@ Output: [0,1]
 Explanation: Because nums[0] + nums[1] == 9, we return [0, 1].
 
  */
-public class TwoSum {
+public class TwoSum1 {
 
     public static void main(String[] args) {
 
