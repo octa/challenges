@@ -24,10 +24,7 @@ Product of digits = 2 * 3 * 4 = 24
 Sum of digits = 2 + 3 + 4 = 9
 Result = 24 - 9 = 15
  */
-    public static int subtractProductAndSums(int n) {
-        Stream.of(n).forEach(System.out::println);
-        return 0;
-    }
+
     public static int subtractProductAndSum(int n) {
         int product = 1;
         int sum = 0;
