@@ -16,6 +16,9 @@
 |14|Common Longest Prefix|https://leetcode.com/problems/longest-common-prefix/|
 |20|Valid Parantheses|https://leetcode.com/problems/valid-parentheses/|
 |53|Average|https://leetcode.com/problems/average-salary-excluding-the-minimum-and-maximum-salary/|
+|88|Merge Arrays||
+|191|Number of 1 bits||
 |217|Count Odd Numbers|https://leetcode.com/problems/count-odd-numbers-in-an-interval-range/|
+|1281|Difference of product and sum||
 |1491|Maximum Subarray|https://leetcode.com/problems/maximum-subarray/|
 |1523|Contains Duplicate|https://leetcode.com/problems/contains-duplicate/|
