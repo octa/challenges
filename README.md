@@ -19,6 +19,7 @@
 |88|Merge Arrays||
 |191|Number of 1 bits||
 |217|Count Odd Numbers|https://leetcode.com/problems/count-odd-numbers-in-an-interval-range/|
+|976|Largest Perimeter||
 |1281|Difference of product and sum||
 |1491|Maximum Subarray|https://leetcode.com/problems/maximum-subarray/|
 |1523|Contains Duplicate|https://leetcode.com/problems/contains-duplicate/|
