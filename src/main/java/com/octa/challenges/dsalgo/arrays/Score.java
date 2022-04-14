@@ -24,8 +24,9 @@ public class Score {
             }
         }
         else {
+            entries++;
             int i = entries-1;
-            while(i>=1 && gameEntries[i].getScore() < gameEntry.getScore()) {
+            while(i>=1 && gameEntries[i-1].getScore() < gameEntry.getScore()) {
                 gameEntries[i] = gameEntries[i-1];
                 i--;
             }
@@ -33,10 +34,10 @@ public class Score {
 //                gameEntries[i] = gameEntries[i-1];
 //            }
             gameEntries[i] = gameEntry;
-            entries++;
+            //entries++;
         }
 
-        Arrays.stream(gameEntries).forEach(System.out::println);
+        Arrays.stream(gameEntries).forEach(x-> System.out.println(x.getScore()));
 
     }
 
