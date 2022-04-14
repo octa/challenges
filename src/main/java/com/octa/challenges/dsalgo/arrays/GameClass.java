@@ -26,8 +26,8 @@ public class GameClass {
         score.add(gameEntry4);
         score.add(gameEntry5);
 
-        for(GameEntry gameEntry1: score.gameEntries) {
-            System.out.println(gameEntry1.getScore());
+        for(int i =0; i<score.entries; i++) {
+            System.out.println(score.gameEntries[i].getScore());
         }
 
     }

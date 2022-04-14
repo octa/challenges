@@ -3,7 +3,7 @@ package com.octa.challenges.dsalgo.arrays;
 import java.util.Arrays;
 
 public class Score {
-    public static final int maxEntries = 10;
+    public static final int maxEntries = 5;
     public int entries;
     public GameEntry[] gameEntries;
 
