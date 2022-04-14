@@ -13,11 +13,11 @@ public class Score {
     }
 
     public void add(GameEntry gameEntry) {
-        if(entries == 0) {
-            gameEntries[0] = gameEntry;
-            entries++;
-            return;
-        }
+//        if(entries == 0) {
+//            gameEntries[0] = gameEntry;
+//            entries++;
+//            return;
+//        }
         if(entries == maxEntries) {
             if(gameEntry.getScore() < gameEntries[entries-1].getScore()) {
                 return;
@@ -26,18 +26,16 @@ public class Score {
         else {
             entries++;
             int i = entries-1;
-            while(i>=1 && gameEntries[i-1].getScore() < gameEntry.getScore()) {
-                gameEntries[i] = gameEntries[i-1];
-                i--;
-            }
-//            for(; gameEntries[i].getScore() < gameEntry.getScore(); i--) {
+//            while(i>=1 && gameEntries[i].getScore() < gameEntry.getScore()) {
 //                gameEntries[i] = gameEntries[i-1];
+//                i--;
 //            }
+            for(; i>=1 && (gameEntry.getScore() > gameEntries[i-1].getScore()); i--) {
+                gameEntries[i] = gameEntries[i-1];
+            }
             gameEntries[i] = gameEntry;
             //entries++;
         }
-
-        Arrays.stream(gameEntries).forEach(x-> System.out.println(x.getScore()));
 
     }
 
