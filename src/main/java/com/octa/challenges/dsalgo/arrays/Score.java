@@ -22,11 +22,27 @@ public class Score {
             entries++;
             int i = entries - 1;
             for(; (i>=1 && gameEntries[i-1].getScore() < gameEntry.getScore()); i--) {
-                System.out.println("Value of i is " + i);
                 gameEntries[i] = gameEntries[i-1];
             }
             gameEntries[i] = gameEntry;
         }
     }
 
+    public GameEntry remove(int index) {
+        if(index < 0 || index > maxEntries) {
+            throw new IndexOutOfBoundsException("Index is out of range");
+        }
+        GameEntry gameEntry = gameEntries[index];
+
+        for(;index<entries-1; index++) {
+            gameEntries[index] = gameEntries[index+1];
+        }
+        gameEntries[index] = null;
+        entries--;
+        return gameEntry;
+    }
+
 }
+
+//        v
+// 50 40 30 20 10

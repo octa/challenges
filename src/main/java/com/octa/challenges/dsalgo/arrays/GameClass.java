@@ -30,5 +30,13 @@ public class GameClass {
             System.out.println(score.gameEntries[i].getScore());
         }
 
+        GameEntry gameEntry1 = score.remove(1);
+        System.out.println(gameEntry1.getScore());
+
+        System.out.println("Updated array");
+        for(int i =0; i<score.entries; i++) {
+            System.out.println(score.gameEntries[i].getScore());
+        }
+
     }
 }
