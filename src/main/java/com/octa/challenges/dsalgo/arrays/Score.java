@@ -22,6 +22,7 @@ public class Score {
             entries++;
             int i = entries - 1;
             for(; (i>=1 && gameEntries[i-1].getScore() < gameEntry.getScore()); i--) {
+                System.out.println("Value of i is " + i);
                 gameEntries[i] = gameEntries[i-1];
             }
             gameEntries[i] = gameEntry;
