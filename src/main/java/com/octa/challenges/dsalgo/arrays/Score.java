@@ -29,5 +29,3 @@ public class Score {
     }
 
 }
-//  v           v
-// 50 40 30 20 10
