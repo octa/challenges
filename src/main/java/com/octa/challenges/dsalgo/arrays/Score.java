@@ -48,9 +48,10 @@ public class Score {
     }
 
     public static void insertionSort(int[] nums) {
-        for(int i = 0; i < nums.length; i ++) {
+        for(int i=0; i< nums.length; i++) {
             int number = nums[i];
             int index = i-1;
+
             while(index >=0 && nums[index] > number) {
                 nums[index+1] = nums[index];
                 index--;
