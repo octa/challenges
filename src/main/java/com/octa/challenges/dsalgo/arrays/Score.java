@@ -48,7 +48,9 @@ public class Score {
     }
 
     public static void insertionSort(int[] nums) {
-        for(int i=0; i< nums.length; i++) {
+
+        for(int i=0; i<nums.length; i++) {
+
             int number = nums[i];
             int index = i-1;
 
@@ -56,7 +58,9 @@ public class Score {
                 nums[index+1] = nums[index];
                 index--;
             }
+
             nums[index+1] = number;
+
         }
 
         for(int i: nums) {
@@ -65,6 +69,6 @@ public class Score {
     }
 
 }
-
-//           v
-// 50 40 30 20 10
+//  0  1  2  3  4
+//        v
+// 10 40 20 30 50
