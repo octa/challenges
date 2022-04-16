@@ -42,7 +42,28 @@ public class Score {
         return gameEntry;
     }
 
+    public static void main(String[] args) {
+        int[] nums = {5, 4, 3, 2, 1};
+        insertionSort(nums);
+    }
+
+    public static void insertionSort(int[] nums) {
+        for(int i = 0; i < nums.length; i ++) {
+            int number = nums[i];
+            int index = i-1;
+            while(index >=0 && nums[index] > number) {
+                nums[index+1] = nums[index];
+                index--;
+            }
+            nums[index+1] = number;
+        }
+
+        for(int i: nums) {
+            System.out.println(i);
+        }
+    }
+
 }
 
-//        v
+//           v
 // 50 40 30 20 10
