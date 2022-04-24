@@ -14,7 +14,7 @@ Input: x = 121
 Output: true
 Explanation: 121 reads as 121 from left to right and from right to left.
  */
-public class PalindromNumer9 {
+public class A9_PalindromNumer {
 
     public static void main(String[] args) {
 

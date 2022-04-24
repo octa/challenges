@@ -2,7 +2,7 @@ package com.octa.challenges.leetcode;
 
 import java.util.Arrays;
 
-public class CommonLongestPrefix14 {
+public class A14_CommonLongestPrefix {
 
     public static void main(String[] args) {
 

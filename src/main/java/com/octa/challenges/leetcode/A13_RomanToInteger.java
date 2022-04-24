@@ -28,7 +28,7 @@ Input: s = "III"
 Output: 3
 Explanation: III = 3.
  */
-public class RomanToInteger13 {
+public class A13_RomanToInteger {
     public static void main(String[] args) {
         String a = "MCMXCIV";
         System.out.println(romanToInt(a));

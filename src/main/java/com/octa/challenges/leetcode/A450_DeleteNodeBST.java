@@ -1,6 +1,6 @@
 package com.octa.challenges.leetcode;
 
-public class DeleteNodeBST_450 {
+public class A450_DeleteNodeBST {
     public class TreeNode {
       int val;
       TreeNode left;

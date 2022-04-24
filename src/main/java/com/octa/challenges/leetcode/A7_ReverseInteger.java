@@ -1,6 +1,6 @@
 package com.octa.challenges.leetcode;
 
-public class ReverseInteger7 {
+public class A7_ReverseInteger {
 
     public static void main(String[] args) {
 

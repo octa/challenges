@@ -1,6 +1,6 @@
 package com.octa.challenges.leetcode;
 
-public class InsertBST_701 {
+public class A701_InsertBST {
     public class TreeNode {
         int val;
         TreeNode left;

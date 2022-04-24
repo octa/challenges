@@ -17,7 +17,7 @@ Output: true
 
 import java.util.Stack;
 
-public class ValidParantheses20 {
+public class A20_ValidParantheses {
 
     public static void main(String[] args) {
         String a = "()";
