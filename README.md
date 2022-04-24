@@ -29,6 +29,7 @@ Leetcode: [Leetcode](https://github.com/octa/challenges/tree/main/src/main/java/
 |450|Delete from BinarySearchTree|https://leetcode.com/problems/delete-node-in-a-bst/|
 |701|Insert into BinarySearchTree|https://leetcode.com/problems/insert-into-a-binary-search-tree/|
 |976|Largest Perimeter||
+|1008|BinarySearchTree from Preorder||
 |1281|Difference of product and sum||
 |1491|Maximum Subarray|https://leetcode.com/problems/maximum-subarray/|
 |1523|Contains Duplicate|https://leetcode.com/problems/contains-duplicate/|
