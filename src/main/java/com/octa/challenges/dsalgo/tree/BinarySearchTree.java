@@ -54,4 +54,20 @@ public class BinarySearchTree<T> {
             System.out.println(root.getItem());
         }
     }
+
+    public TreeNode search(TreeNode root, T a) {
+        if(root.getItem() == a) {
+            return root;
+        }
+        if(root.getLeft() == null || root.getRight() == null) {
+            return null;
+        }
+        if((Integer)a < (Integer)root.getLeft().getItem()) {
+            root = search(root.getLeft(), a);
+        }
+        else {
+            root = search(root.getRight(), a);
+        }
+        return root;
+    }
 }
