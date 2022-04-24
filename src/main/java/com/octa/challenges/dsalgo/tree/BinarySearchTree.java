@@ -70,4 +70,46 @@ public class BinarySearchTree<T> {
         }
         return root;
     }
+
+    public TreeNode delete(TreeNode root, T a) {
+
+        if(root == null) {
+            return root;
+        }
+
+        if((Integer) a < (Integer) root.getItem()) {
+            root.left = delete(root.getLeft(), a);
+        }
+        else if((Integer) a > (Integer) root.getItem()){
+            root.right = delete(root.getRight(), a);
+        }
+        else {
+            if(root.left == null) {
+                return root.right;
+            }
+            else if(root.right == null) {
+                return root.left;
+            }
+            root.a = findMin(root.right);
+            root.right = delete(root.right, (T) root.a);
+        }
+
+        return root;
+    }
+
+    public T findMin(TreeNode node) {
+        T min = (T) node.a;
+        while(node.left!=null) {
+            min = (T) node.left.a;
+            node = node.left;
+        }
+        return min;
+    }
+
 }
+
+//                          2
+//                        /   \
+//                       1     4
+//                           /  \
+//                          3    5

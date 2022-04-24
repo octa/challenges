@@ -5,8 +5,9 @@ public class Bootstrapper {
     public static void main(String[] args) {
         Integer a = 2;
         BinarySearchTree binarySearchTree = new BinarySearchTree(a);
-        binarySearchTree.insert(binarySearchTree.root, 3);
+        binarySearchTree.insert(binarySearchTree.root, 4);
         binarySearchTree.insert(binarySearchTree.root, 1);
+        binarySearchTree.insert(binarySearchTree.root, 3);
         binarySearchTree.insert(binarySearchTree.root, 5);
         System.out.println(binarySearchTree.getRoot().getItem());
         System.out.println(binarySearchTree.getRoot().getLeft().getItem());
@@ -20,5 +21,7 @@ public class Bootstrapper {
         System.out.println("Search");
         TreeNode node = binarySearchTree.search(binarySearchTree.root, 4);
         System.out.println(node == null? "Not found": node.getItem());
+        binarySearchTree.delete(binarySearchTree.root, 4);
+        binarySearchTree.inOrderTraversal(binarySearchTree.root);
     }
 }
