@@ -21,13 +21,13 @@ Leetcode: [Leetcode](https://github.com/octa/challenges/tree/main/src/main/java/
 |20|Valid Parantheses|https://leetcode.com/problems/valid-parentheses/|
 |53|Average|https://leetcode.com/problems/average-salary-excluding-the-minimum-and-maximum-salary/|
 |88|Merge Arrays||
-|94|Inorder traversal||
-|144|Preorder traversal||
-|145|Postorder traversal||
+|94|Inorder traversal|https://leetcode.com/problems/binary-tree-inorder-traversal/|
+|144|Preorder traversal|https://leetcode.com/problems/binary-tree-preorder-traversal/|
+|145|Postorder traversal|https://leetcode.com/problems/binary-tree-postorder-traversal/|
 |191|Number of 1 bits||
 |217|Count Odd Numbers|https://leetcode.com/problems/count-odd-numbers-in-an-interval-range/|
-|450|Delete from BinarySearchTree||
-|701|Insert into BinarySearchTree||
+|450|Delete from BinarySearchTree|https://leetcode.com/problems/delete-node-in-a-bst/|
+|701|Insert into BinarySearchTree|https://leetcode.com/problems/insert-into-a-binary-search-tree/|
 |976|Largest Perimeter||
 |1281|Difference of product and sum||
 |1491|Maximum Subarray|https://leetcode.com/problems/maximum-subarray/|
