@@ -18,7 +18,7 @@ public class Bootstrapper {
         System.out.println("Postorder traversal");
         binarySearchTree.postOrderTraversal(binarySearchTree.root);
         System.out.println("Search");
-        TreeNode node = binarySearchTree.search(binarySearchTree.root, 3);
+        TreeNode node = binarySearchTree.search(binarySearchTree.root, 4);
         System.out.println(node == null? "Not found": node.getItem());
     }
 }
