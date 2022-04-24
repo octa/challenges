@@ -22,6 +22,7 @@ Leetcode: [Leetcode](https://github.com/octa/challenges/tree/main/src/main/java/
 |53|Average|https://leetcode.com/problems/average-salary-excluding-the-minimum-and-maximum-salary/|
 |88|Merge Arrays||
 |94|Inorder traversal|https://leetcode.com/problems/binary-tree-inorder-traversal/|
+|108|Sorted Array to BinarySearchTree|https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/|
 |144|Preorder traversal|https://leetcode.com/problems/binary-tree-preorder-traversal/|
 |145|Postorder traversal|https://leetcode.com/problems/binary-tree-postorder-traversal/|
 |191|Number of 1 bits||
