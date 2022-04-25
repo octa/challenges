@@ -38,3 +38,4 @@ Leetcode: [Leetcode](https://github.com/octa/challenges/tree/main/src/main/java/
 |1523|Contains Duplicate|https://leetcode.com/problems/contains-duplicate/|
 |1929|Concatenate arrays|https://leetcode.com/problems/concatenation-of-array/|
 |2235|Add two integers|https://leetcode.com/problems/add-two-integers/|
+|2236|Root Equals Sum of Children|https://leetcode.com/problems/root-equals-sum-of-children/|
