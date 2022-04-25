@@ -28,6 +28,7 @@ Leetcode: [Leetcode](https://github.com/octa/challenges/tree/main/src/main/java/
 |145|Postorder traversal|https://leetcode.com/problems/binary-tree-postorder-traversal/|
 |191|Number of 1 bits||
 |217|Count Odd Numbers|https://leetcode.com/problems/count-odd-numbers-in-an-interval-range/|
+|230|Kth Smallest in BinarySearchTree|https://leetcode.com/problems/kth-smallest-element-in-a-bst/|
 |450|Delete from BinarySearchTree|https://leetcode.com/problems/delete-node-in-a-bst/|
 |700|Search BinarySearchTree|https://leetcode.com/problems/search-in-a-binary-search-tree/|
 |701|Insert into BinarySearchTree|https://leetcode.com/problems/insert-into-a-binary-search-tree/|
