@@ -1,24 +1,7 @@
 package com.octa.challenges.leetcode;
 
 public class A108_SortedArraytoBST {
-    public static class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
 
-        TreeNode() {
-        }
-
-        TreeNode(int val) {
-            this.val = val;
-        }
-
-        TreeNode(int val, TreeNode left, TreeNode right) {
-            this.val = val;
-            this.left = left;
-            this.right = right;
-        }
-    }
     public static void main(String[] args) {
         int[] nums = {-10,-3,0,5,9};
         A108_SortedArraytoBST sortedArraytoBST = new A108_SortedArraytoBST();
