@@ -22,4 +22,26 @@ public class A230_KthSmallestBST {
         return root;
     }
 
+    /*
+    class Solution {
+        static int idx;
+        public int kthSmallest(TreeNode root, int k) {
+            idx=0;
+            int ans[]=new int[1];
+            inOrder(root,k,ans);
+            return ans[0];
+        }
+
+        static void inOrder(TreeNode root,int k,int ans[]) {
+            if(root==null)
+                return;
+            inOrder(root.left,k,ans);
+            idx++;
+            if(idx==k)
+                ans[0]=root.val;
+            inOrder(root.right,k,ans);
+        }
+    }
+     */
+
 }
