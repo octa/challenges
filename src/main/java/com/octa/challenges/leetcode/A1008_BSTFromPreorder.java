@@ -1,5 +1,7 @@
 package com.octa.challenges.leetcode;
 
+import com.octa.challenges.leetcode.domain.TreeNode;
+
 public class A1008_BSTFromPreorder {
 
     public TreeNode bstFromPreorder(int[] preorder) {

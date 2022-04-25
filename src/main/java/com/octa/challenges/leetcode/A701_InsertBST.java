@@ -1,5 +1,7 @@
 package com.octa.challenges.leetcode;
 
+import com.octa.challenges.leetcode.domain.TreeNode;
+
 public class A701_InsertBST {
 
     public TreeNode insertIntoBST(TreeNode root, int val) {

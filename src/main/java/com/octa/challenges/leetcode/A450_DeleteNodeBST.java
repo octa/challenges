@@ -1,5 +1,7 @@
 package com.octa.challenges.leetcode;
 
+import com.octa.challenges.leetcode.domain.TreeNode;
+
 public class A450_DeleteNodeBST {
 
     public TreeNode deleteNode(TreeNode root, int key) {

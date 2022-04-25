@@ -1,5 +1,7 @@
 package com.octa.challenges.leetcode;
 
+import com.octa.challenges.leetcode.domain.TreeNode;
+
 public class A700_SearchBST {
     public TreeNode searchBST(TreeNode root, int val) {
         if(root == null) {

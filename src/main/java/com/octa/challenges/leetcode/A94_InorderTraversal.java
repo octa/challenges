@@ -1,5 +1,7 @@
 package com.octa.challenges.leetcode;
 
+import com.octa.challenges.leetcode.domain.TreeNode;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Stack;
