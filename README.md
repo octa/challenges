@@ -36,4 +36,5 @@ Leetcode: [Leetcode](https://github.com/octa/challenges/tree/main/src/main/java/
 |1382|Balance BinarySearchTree|https://leetcode.com/problems/balance-a-binary-search-tree/|
 |1491|Maximum Subarray|https://leetcode.com/problems/maximum-subarray/|
 |1523|Contains Duplicate|https://leetcode.com/problems/contains-duplicate/|
+|1929|Concatenate arrays|https://leetcode.com/problems/concatenation-of-array/|
 |2235|Add two integers|https://leetcode.com/problems/add-two-integers/|
