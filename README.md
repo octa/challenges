@@ -33,5 +33,6 @@ Leetcode: [Leetcode](https://github.com/octa/challenges/tree/main/src/main/java/
 |976|Largest Perimeter||
 |1008|BinarySearchTree from Preorder||
 |1281|Difference of product and sum||
+|1382|Balance BinarySearchTree|https://leetcode.com/problems/balance-a-binary-search-tree/|
 |1491|Maximum Subarray|https://leetcode.com/problems/maximum-subarray/|
 |1523|Contains Duplicate|https://leetcode.com/problems/contains-duplicate/|
