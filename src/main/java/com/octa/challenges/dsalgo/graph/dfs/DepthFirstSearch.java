@@ -1,14 +1,25 @@
-package com.octa.challenges.dsalgo.graph.bfs;
+package com.octa.challenges.dsalgo.graph.dfs;
 
-import java.util.*;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Stack;
 
-public class BreadthFirstSearch {
+public class DepthFirstSearch {
+
     int number_of_vertices;
     List<List<Integer>> graph;
 
-    public BreadthFirstSearch(List<List<Integer>> graph) {
-        this.number_of_vertices = graph.size();
+    public DepthFirstSearch(List<List<Integer>> graph) {
+        number_of_vertices = graph.size();
         this.graph = graph;
+    }
+
+    public static List<List<Integer>> init(int size) {
+        List<List<Integer>> graph = new LinkedList<>();
+        for(int i = 0; i<size; i++) {
+            graph.add(new LinkedList());
+        }
+        return graph;
     }
 
     public static void addDirectedNode(List<List<Integer>> graph, int u, int v) {
@@ -20,28 +31,21 @@ public class BreadthFirstSearch {
         graph.get(v).add(u);
     }
 
-    public static List<List<Integer>> init(int n) {
-        List<List<Integer>> graph = new LinkedList<>();
-        for(int i= 0; i < n; i++) {
-            graph.add(new LinkedList<>());
-        }
-        return graph;
-    }
-
-    public void bfs(int start) {
+    public void dfs(int start) {
         boolean[] visited = new boolean[number_of_vertices];
-        Deque<Integer> queue = new ArrayDeque<>(number_of_vertices);
-        visited[start] = true;
-        queue.offer(start);
+        Stack<Integer> stack = new Stack<>();
 
-        while(!queue.isEmpty()) {
-            int node = queue.poll();
+        visited[start] = true;
+        stack.push(start);
+
+        while(!stack.isEmpty()) {
+            int node = stack.pop();
             List<Integer> nodes = graph.get(node);
 
             for(Integer n: nodes) {
                 if(!visited[n]) {
                     visited[n] = true;
-                    queue.offer(n);
+                    stack.push(n);
                 }
             }
             System.out.println(node);
@@ -71,7 +75,7 @@ public class BreadthFirstSearch {
         addUndirectedNode(graph, 1, 10);
         addUndirectedNode(graph, 10, 9);
         addUndirectedNode(graph, 9, 8);
-        BreadthFirstSearch bfs = new BreadthFirstSearch(graph);
-        bfs.bfs(10);
+        DepthFirstSearch dfs = new DepthFirstSearch(graph);
+        dfs.dfs(10);
     }
 }
