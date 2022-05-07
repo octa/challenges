@@ -11,7 +11,6 @@ public class A7_ReverseInteger {
 
     public static int reverse(int x) {
 
-        int orginalx = x;
         int reverse = 0;
 
         while(x !=0) {
