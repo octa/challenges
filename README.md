@@ -44,5 +44,6 @@ Leetcode: [Leetcode](https://github.com/octa/challenges/tree/main/src/main/java/
 |1672|Richest Wealth|https://leetcode.com/problems/richest-customer-wealth/|
 |1920|Array Permutation|https://leetcode.com/problems/build-array-from-permutation/|
 |1929|Concatenate arrays|https://leetcode.com/problems/concatenation-of-array/|
+|2011|Value of a Variable/https://leetcode.com/problems/final-value-of-variable-after-performing-operations/|
 |2235|Add two integers|https://leetcode.com/problems/add-two-integers/|
 |2236|Root Equals Sum of Children|https://leetcode.com/problems/root-equals-sum-of-children/|
