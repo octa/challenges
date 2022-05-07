@@ -26,4 +26,17 @@ public class A2011_ValueOfVariable {
         }
         return ret;
     }
+
+    public static int finalValueAfterOperationsEfficient(String[] operations) {
+        int ret = 0;
+        for(int i=0; i<operations.length;i++) {
+            switch(operations[i].charAt(1)) {
+                case '+':
+                    ret++; break;
+                default:
+                    ret--; break;
+            }
+        }
+        return ret;
+    }
 }
