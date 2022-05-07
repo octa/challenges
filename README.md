@@ -37,6 +37,7 @@ Leetcode: [Leetcode](https://github.com/octa/challenges/tree/main/src/main/java/
 |1008|BinarySearchTree from Preorder||
 |1281|Difference of product and sum||
 |1382|Balance BinarySearchTree|https://leetcode.com/problems/balance-a-binary-search-tree/|
+|1480|Running Sum of Array|https://leetcode.com/problems/running-sum-of-1d-array/|
 |1491|Maximum Subarray|https://leetcode.com/problems/maximum-subarray/|
 |1523|Contains Duplicate|https://leetcode.com/problems/contains-duplicate/|
 |1603|Design Parking System|https://leetcode.com/problems/design-parking-system/|
