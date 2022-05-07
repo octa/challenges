@@ -40,6 +40,7 @@ Leetcode: [Leetcode](https://github.com/octa/challenges/tree/main/src/main/java/
 |1491|Maximum Subarray|https://leetcode.com/problems/maximum-subarray/|
 |1523|Contains Duplicate|https://leetcode.com/problems/contains-duplicate/|
 |1603|Design Parking System|https://leetcode.com/problems/design-parking-system/|
+|1920|Array Permutation|https://leetcode.com/problems/build-array-from-permutation/|
 |1929|Concatenate arrays|https://leetcode.com/problems/concatenation-of-array/|
 |2235|Add two integers|https://leetcode.com/problems/add-two-integers/|
 |2236|Root Equals Sum of Children|https://leetcode.com/problems/root-equals-sum-of-children/|
