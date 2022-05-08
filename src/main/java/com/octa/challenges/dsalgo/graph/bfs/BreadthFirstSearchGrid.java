@@ -76,3 +76,5 @@ public class BreadthFirstSearchGrid {
  */
 
 //https://stackoverflow.com/questions/71300044/display-shortest-path-to-finish-in-2d-array
+//https://stackoverflow.com/questions/8435311/java-maze-shortest-path-2d-int-array
+//https://stackoverflow.com/questions/47896461/get-shortest-path-to-a-cell-in-a-2d-array-in-python
