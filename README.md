@@ -37,6 +37,7 @@ Leetcode: [Leetcode](https://github.com/octa/challenges/tree/main/src/main/java/
 |1008|BinarySearchTree from Preorder||
 |1281|Difference of product and sum||
 |1382|Balance BinarySearchTree|https://leetcode.com/problems/balance-a-binary-search-tree/|
+|1470|Shuffle the Array|https://leetcode.com/problems/shuffle-the-array/|
 |1480|Running Sum of Array|https://leetcode.com/problems/running-sum-of-1d-array/|
 |1491|Maximum Subarray|https://leetcode.com/problems/maximum-subarray/|
 |1523|Contains Duplicate|https://leetcode.com/problems/contains-duplicate/|
@@ -45,5 +46,6 @@ Leetcode: [Leetcode](https://github.com/octa/challenges/tree/main/src/main/java/
 |1920|Array Permutation|https://leetcode.com/problems/build-array-from-permutation/|
 |1929|Concatenate arrays|https://leetcode.com/problems/concatenation-of-array/|
 |2011|Value of a Variable/https://leetcode.com/problems/final-value-of-variable-after-performing-operations/|
+|2114|Number of Words/https://leetcode.com/problems/maximum-number-of-words-found-in-sentences/|
 |2235|Add two integers|https://leetcode.com/problems/add-two-integers/|
 |2236|Root Equals Sum of Children|https://leetcode.com/problems/root-equals-sum-of-children/|
