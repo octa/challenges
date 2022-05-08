@@ -31,6 +31,8 @@ public class BreadthFirstSearchGridFindPath {
         }
 
         findShortestPath(node, rows, columns);
+        System.out.println("");
+        findShortestPathShowPath(maze, node, rows, columns);
 
     }
 
@@ -127,6 +129,64 @@ public class BreadthFirstSearchGridFindPath {
             if(i != shortestPath.size() -1) {
                 System.out.print(" -> ");
             }
+        }
+    }
+
+    public static void findShortestPathShowPath(String[][] maze, Node node, int rows, int columns) {
+        int[] dRow = new int[] {-1, 1, 0, 0};
+        int[] dColumn = new int[] {0, 0, 1, -1};
+        int[][] path = node.path;
+        int rr = node.rr;
+        int cc = node.cc;
+        List<String> shortestPath = new ArrayList();
+        shortestPath.add("End (" + rr + "," + cc + ")");
+        boolean found = false;
+
+        while(!found) {
+            for(int i=0; i<4; i++) {
+                int newR = rr+dRow[i];
+                int newC = cc+dColumn[i];
+
+                if(newR < 0 || newC < 0) continue;
+                if(newR >= rows || newC >= columns) continue;
+
+                if(path[newR][newC] == 1) {
+                    shortestPath.add("Start (" + newR + "," + newC + ")");
+                    found = true;
+                    break;
+                }
+
+                if(path[newR][newC] < path[rr][cc] && path[newR][newC] > 0) {
+                    if(rr != newR) {
+                        maze[newR][newC] = "|";
+                    }
+                    if(cc != newC) {
+                        maze[newR][newC] = "-";
+                    }
+                    shortestPath.add("(" + newR + "," + newC + ")");
+                    rr = newR;
+                    cc = newC;
+                }
+            }
+        }
+
+        Collections.reverse(shortestPath);
+
+        for(int i=0; i<shortestPath.size(); i++) {
+            System.out.print(shortestPath.get(i));
+            if(i != shortestPath.size() -1) {
+                System.out.print(" -> ");
+            }
+        }
+
+        System.out.println("");
+
+        for(int i=0; i<maze.length; i++) {
+            for(int j=0; j<maze[i].length; j++) {
+                System.out.print(maze[i][j]);
+                System.out.print("\t");
+            }
+            System.out.println("");
         }
     }
 }
