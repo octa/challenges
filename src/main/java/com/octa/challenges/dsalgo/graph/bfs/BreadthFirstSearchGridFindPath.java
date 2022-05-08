@@ -1,9 +1,6 @@
 package com.octa.challenges.dsalgo.graph.bfs;
 
-import java.util.ArrayDeque;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Queue;
+import java.util.*;
 
 public class BreadthFirstSearchGridFindPath {
 
@@ -28,7 +25,7 @@ public class BreadthFirstSearchGridFindPath {
         for(int i=0; i< rows; i++) {
             for(int j = 0; j<columns; j++) {
                 System.out.print(node.path[i][j]);
-                System.out.print("  ");
+                System.out.print("\t");
             }
             System.out.println("");
         }
@@ -98,7 +95,7 @@ public class BreadthFirstSearchGridFindPath {
         int rr = node.rr;
         int cc = node.cc;
         List<String> shortestPath = new ArrayList();
-        shortestPath.add("(" + rr + "," + cc + ")");
+        shortestPath.add("End (" + rr + "," + cc + ")");
         boolean found = false;
 
         while(!found) {
@@ -110,7 +107,7 @@ public class BreadthFirstSearchGridFindPath {
                 if(newR >= rows || newC >= columns) continue;
 
                 if(path[newR][newC] == 1) {
-                    shortestPath.add("(" + newR + "," + newC + ")");
+                    shortestPath.add("Start (" + newR + "," + newC + ")");
                     found = true;
                     break;
                 }
@@ -123,8 +120,13 @@ public class BreadthFirstSearchGridFindPath {
             }
         }
 
+        Collections.reverse(shortestPath);
+
         for(int i=0; i<shortestPath.size(); i++) {
-            System.out.println(shortestPath.get(i));
+            System.out.print(shortestPath.get(i));
+            if(i != shortestPath.size() -1) {
+                System.out.print(" -> ");
+            }
         }
     }
 }
