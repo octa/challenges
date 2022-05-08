@@ -41,6 +41,7 @@ Leetcode: [Leetcode](https://github.com/octa/challenges/tree/main/src/main/java/
 |1480|Running Sum of Array|https://leetcode.com/problems/running-sum-of-1d-array/|
 |1491|Maximum Subarray|https://leetcode.com/problems/maximum-subarray/|
 |1523|Contains Duplicate|https://leetcode.com/problems/contains-duplicate/|
+|1528|Shuffle String|https://leetcode.com/problems/shuffle-string/|
 |1603|Design Parking System|https://leetcode.com/problems/design-parking-system/|
 |1672|Richest Wealth|https://leetcode.com/problems/richest-customer-wealth/|
 |1920|Array Permutation|https://leetcode.com/problems/build-array-from-permutation/|
