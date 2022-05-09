@@ -72,12 +72,38 @@ public class AStarGrid {
                 maze[i][j] = new Node(i, j);
             }
         }
-        printGrid(maze);
         System.out.println("Starting A start search");
+
+        // Start obstacles
+
+        maze[1][4].value = "#";
+        maze[2][4].value = "#";
+        maze[3][4].value = "#";
+        maze[4][4].value = "#";
+        maze[4][3].value = "#";
+        maze[4][2].value = "#";
+        maze[4][1].value = "#";
+
+        // End obstacles
+
+        printInitGrid(maze);
+
         Node start = maze[0][0];
         Node end = maze[8][8];
         Node path = new AStarGrid().astar(maze, start, end);
         findPath(path, start, end);
+        printEndGrid(maze, path, start, end);
+    }
+
+    public static void printInitGrid(Node[][] maze) {
+        for(Node[] i: maze) {
+            for(Node a: i) {
+                System.out.print(a.value);
+                System.out.print("\t");
+            }
+            System.out.println("");
+        }
+        System.out.println("");
     }
 
     public static void printGrid(Node[][] maze) {
@@ -89,6 +115,17 @@ public class AStarGrid {
             System.out.println("");
         }
         System.out.println("");
+    }
+
+    public static void printEndGrid(Node[][] maze, Node path, Node start, Node end) {
+        Node prev = path.prev;
+        maze[end.x][end.y].value = "X";
+        maze[path.x][path.y].value = "X";
+        while(prev!=null) {
+            maze[prev.x][prev.y].value = "X";
+            prev = prev.prev;
+        }
+        printInitGrid(maze);
     }
 
     public static void findPath(Node path, Node start, Node end) {
