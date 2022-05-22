@@ -4,7 +4,10 @@ name: Build challenges
 #  push:
 #    branches: [main]
 
-on: workflow_dispatch
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 13 * * *"
 
 jobs:
   Build:
